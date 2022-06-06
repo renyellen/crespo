@@ -42,7 +42,7 @@ header{
     border: 0.23vw solid #9767A9;
     border-radius: 8.2vw;
     padding-left: 3vw;
-    background-image: url("/assets/lupa-input.svg");
+    background-image: url("assets/lupa-input.svg");
     background-position: 0.8vw;
     background-repeat: no-repeat;
    }
@@ -129,7 +129,7 @@ main{
 }
 .intro-p{
     width: 30vw;
-    height: 21vw
+    height: 21vw;
 }
 .intro-p p{
     font-size: 1.2vw;
@@ -457,7 +457,7 @@ footer img{
     header{
         height: 9vw;
         justify-content: safe;
-       }
+    }
    .logo img{
         height: 90%;
         width: 35%;
@@ -492,7 +492,6 @@ footer img{
         left: -40vw;
         position: absolute;
         transition: all .5s;
-        border: solid 2px;
     }
     input[type="checkbox"]:checked ~ nav{
         transform: translateX(40vw);
@@ -506,6 +505,8 @@ footer img{
     .nav-media li:hover{
         background-color: #AC95BB;
         font-weight: 900;
+        transition: 0.5s;
+        cursor: pointer;
     }
     .nav-media label{
         position: absolute;
@@ -518,6 +519,7 @@ footer img{
     }
     .cabeludo{
         background-image: url("assets/cabeludo.png");
+        background-size: cover;
         padding-top:5vw;
         padding-left:6vw;
     }
@@ -548,33 +550,28 @@ footer img{
     .intro{
         position: relative;
         flex-direction: column;
-        height: 90vw;
+        height: 50vw;
         width: 100%;
-        justify-content: center;
+        justify-content: start;
         align-items: start;
         padding-top: 1vw;
         padding-left: 3vw;
-        border: solid black;
     }
     .intro-title{
-        width: 50vh;
+        width: 40vh;
         height: 15vw;
-        font-size: 1.5vw;
-       border: solid red;
-    }
+        font-size:2vw;
+     }
     .intro-title h2{
-        font-size: 3.5vw;
-        border: solid gray 2px;
+        font-size: 4vw;
     }
     .intro-p{
         width: 100%;
-        height: 0;
-        border: solid green;
-    }
+        height: 80px;
+     }
     .intro-p p{
         font-size: 2.5vw;
         margin-top: 1vw;
-        border: solid goldenrod 5px;
     }
     .dicas-geral{
         display: flex;
@@ -606,7 +603,7 @@ footer img{
     .dica-num1 div{
         background-color: #9767A9;
         height: 46vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         left: 0vw;
         top: 0vw;
@@ -623,7 +620,7 @@ footer img{
     .dica-num2 div{
         background-color: #9767A9;
         height: 43vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         padding: 2vw;
         right: 0vw;
@@ -640,7 +637,7 @@ footer img{
     .dica-num3 div{
         background-color: #9767A9;
         height: 38vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         padding: 2vw;
         left: 0vw;
@@ -657,7 +654,7 @@ footer img{
     .dica-num4 div{
         background-color: #9767A9;
         height: 39vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         padding: 2vw;
         right: 0vw;
@@ -674,7 +671,7 @@ footer img{
     .dica-num5 div{
         background-color: #9767A9;
         height: 44vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         padding: 2vw;
         left: 0vw;
@@ -691,7 +688,7 @@ footer img{
     .dica-num6 div{
         background-color: #9767A9;
         height: 33vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         padding: 2vw;
         right: 0vw;
@@ -708,7 +705,7 @@ footer img{
     .dica-num7 div{
         background-color: #9767A9;
         height: 27vw;
-        width: 98vw;
+        width: 100vw;
         position: static;
         padding: 2vw;
         left: 0vw;
